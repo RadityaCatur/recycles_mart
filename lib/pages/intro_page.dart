@@ -15,23 +15,23 @@ class IntroPage extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(
                 left: 100.0, right: 100.0, bottom: 20.0, top: 120.0),
-            child: Image.asset('lib/images/keranjang.jpg'),
+            child: Image.asset('lib/images/logo.png'),
           ),
 
           // MOTTO
           Padding(
             padding: const EdgeInsets.all(28.0),
             child: Text(
-              "High Quality Recyclable Products",
+              "Recycles Mart",
               textAlign: TextAlign.center,
-              style: GoogleFonts.notoSerif(
+              style: GoogleFonts.pacifico(
                   fontSize: 36, fontWeight: FontWeight.bold),
             ),
           ),
 
           // MOTTO 2
           const Text(
-            "Clean, Affordable, and Durable!",
+            "High Quality Recycable Products",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 16,
@@ -56,7 +56,7 @@ class IntroPage extends StatelessWidget {
             child: Container(
               padding: const EdgeInsets.all(24),
               decoration: BoxDecoration(
-                color: Colors.deepOrange,
+                color: const Color.fromARGB(255, 129, 162, 105),
                 borderRadius: BorderRadius.circular(15),
               ),
               child: const Text("Masuk",
