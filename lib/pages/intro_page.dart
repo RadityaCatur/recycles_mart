@@ -59,7 +59,7 @@ class IntroPage extends StatelessWidget {
                 color: const Color.fromARGB(255, 129, 162, 105),
                 borderRadius: BorderRadius.circular(15),
               ),
-              child: const Text("Masuk",
+              child: const Text("Enter",
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 16,
