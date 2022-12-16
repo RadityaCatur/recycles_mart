@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:recycles_mart/model/cart_model.dart';
+import 'package:provider/provider.dart';
 import 'pages/intro_page.dart';
 
 void main() {
