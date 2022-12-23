@@ -1,11 +1,11 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
+// ignore: must_be_immutable
 class RecyclesItemTile extends StatelessWidget {
   final String itemName;
   final String itemPrice;
   final String imagePath;
+  // ignore: prefer_typing_uninitialized_variables
   final color;
   void Function()? onPressed;
 
@@ -43,7 +43,7 @@ class RecyclesItemTile extends StatelessWidget {
             // item name
             Text(
               itemName,
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 16,
               ),
             ),
@@ -52,8 +52,8 @@ class RecyclesItemTile extends StatelessWidget {
               onPressed: onPressed,
               color: color,
               child: Text(
-                '\$' + itemPrice,
-                style: TextStyle(
+                '\$$itemPrice',
+                style: const TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                 ),

@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
         title: Text(
-          'Sydney, Australia',
+          'Malang, Jawa Timur',
           style: TextStyle(
             fontSize: 16,
             color: Colors.grey[700],
@@ -38,12 +38,12 @@ class _HomePageState extends State<HomePage> {
           Padding(
             padding: const EdgeInsets.only(right: 24.0),
             child: Container(
-              padding: EdgeInsets.all(16),
+              padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
                 color: Colors.grey[200],
                 borderRadius: BorderRadius.circular(12),
               ),
-              child: Icon(
+              child: const Icon(
                 Icons.person,
                 color: Colors.grey,
               ),
@@ -57,7 +57,7 @@ class _HomePageState extends State<HomePage> {
           context,
           MaterialPageRoute(
             builder: (context) {
-              return CartPage();
+              return const CartPage();
             },
           ),
         ),
@@ -71,7 +71,7 @@ class _HomePageState extends State<HomePage> {
           // good morning bro
           const Padding(
             padding: EdgeInsets.symmetric(horizontal: 24.0),
-            child: Text('Good morning,'),
+            child: Text('Good morning!'),
           ),
 
           const SizedBox(height: 4),
@@ -80,7 +80,7 @@ class _HomePageState extends State<HomePage> {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 24.0),
             child: Text(
-              "Let's order fresh items for you",
+              "Fresh items for you!",
               style: GoogleFonts.notoSerif(
                 fontSize: 36,
                 fontWeight: FontWeight.bold,
@@ -98,16 +98,16 @@ class _HomePageState extends State<HomePage> {
           const SizedBox(height: 24),
 
           // categories -> horizontal listview
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 24.0),
-            child: Text(
-              "Fresh Items",
-              style: GoogleFonts.notoSerif(
-                //fontWeight: FontWeight.bold,
-                fontSize: 18,
-              ),
-            ),
-          ),
+          // Padding(
+          //   padding: const EdgeInsets.symmetric(horizontal: 24.0),
+          //   child: Text(
+          //     "Fresh Items",
+          //     style: GoogleFonts.notoSerif(
+          //       //fontWeight: FontWeight.bold,
+          //       fontSize: 18,
+          //     ),
+          //   ),
+          // ),
 
           // recent orders -> show last 3
           Expanded(
