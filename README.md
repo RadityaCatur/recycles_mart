@@ -2,15 +2,16 @@
 
 A new Flutter project.
 
-## Getting Started
+Anggota Kelompok : <br>
 
-This project is a starting point for a Flutter application.
+Diajeng Nidzom Y./11</br>
+Farah Zulfa Hamidah/12</br>
+Raditya Catur N./22</br>
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Hasil Screenshot </br>
+![project_flutter](images/awal.jpeg) </br>
+![project_flutter](images/page.jpeg) </br>
+![project_flutter](images/cart1.jpeg) </br>
+![project_flutter](images/cart2.jpeg) </br>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
